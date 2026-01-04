@@ -1,5 +1,5 @@
 * {
-  margin: o;
+  margin: 0;
   padding: 0;
 }
 .navigation {
@@ -41,5 +41,44 @@ h1 {
   display: flex;
   width: 211px;
   height: 40px;
-  margin-left: 450px;
+  margin-left: 475px;
+  gap: 10px;
+}
+h5 {
+  width: 600px;
+  height: 72px;
+  margin-left: 280px;
+  gap: 10px;
+}
+img {
+  display: flex;
+  width: 445px;
+  height: 300px;
+}
+.projects {
+  display: flex;
+  width: 1100px;
+  height: 1000px;
+}
+.cleaning {
+  width: 445px;
+  margin-top: 182px;
+  margin-left: 55px;
+  height: 494px;
+}
+.landing {
+  margin-top: 182px;
+  margin-left: 50px;
+  width: 445px;
+  height: 494px;
+}
+p {
+  width: 421px;
+  height: 100px;
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: rgba(156, 156, 156, 1);
 }
