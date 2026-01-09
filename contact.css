@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(8, 8, 8, 1);
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1b1b1b;
+  width: auto;
+  height: 70px;
+  margin-right: 85px;
+  margin-left: 85px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  background-color: #1b1b1b;
+  gap: 70px;
+}
+.navigation li a {
+  color: #9c9c9c;
+  background-color: #1b1b1b;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: IMB plex mono, monospace;
+  width: 94px;
+  height: 18px;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 81px;
+  gap: 10px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 100%;
+}
+p {
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  color: rgba(156, 156, 156, 1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  gap: 5px;
+}
+h3 {
+  color: rgba(255, 255, 255, 1);
+}
+input {
+  background-color: whitesmoke;
+  width: 350px;
+  height: auto;
+  gap: 5px;
+}
+textarea {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 100px;
+  gap: 5px;
+}
+button {
+  background-color: rgba(63, 142, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: IBM Plex Mono, monospace;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  width: 350px;
+  height: 50px;
+  border-radius: 4px;
+  border: rgba(98, 186, 27, 1) 1px solid;
+  padding: 16px 24px;
+  gap: 10px;
+}
+footer {
+  display: flex;
+  stick: bottom;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: rgba(27, 27, 27, 1);
+  height: 70px;
+}
+footer p {
+  background-color: rgba(27, 27, 27, 1);
+  line-height: 100%;
+}

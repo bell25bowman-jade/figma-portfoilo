@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
+    <title>contact/form</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <div class="navigation">
@@ -18,5 +18,34 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
+    <header>
+      <h1>Get In Touch</h1>
+      <p>Please leave your email, phone number, and detailed message.</p>
+    </header>
+    <div class="info">
+      <form action="#" method="post">
+        <h3>Name</h3>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <h3>Email</h3>
+        <input
+          type="email"
+          name="email"
+          placeholder="Please Enter Your Email"
+          required
+        />
+        <h3>Phone Number</h3>
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Your Phone Number (Optional)"
+        />
+        <h3>Message</h3>
+        <textarea name="message" placeholder="Enter Your Message"></textarea>
+        <button type="submit">Send Message ></button>
+      </form>
+    </div>
+    <footer>
+      <p>Made with ❤️</p>
+    </footer>
   </body>
 </html>
